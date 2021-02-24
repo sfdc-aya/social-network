@@ -1,3 +1,101 @@
 body{
     
 }
+
+/* TUBA'S PART */
+
+body{
+    font-family:  'Open ', sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+/* My Profile Part*/
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.left .profile{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+.profile h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.profile #pro-img, .profile ul{
+    align-self: center;
+}
+
+.profile ul{
+    /*border-top: solid 1px #eee;*/
+    padding: 0;
+}
+.profile hr{
+    width: 80%;
+    height: 1px;
+    background-color: #eee;
+    border: none;
+
+}
+.profile ul li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.profile .fas{
+    color: gray;
+    padding-right: 20px;
+}
+
+/* My Group Part*/
+
+.clr{
+    clear: both;
+}
+
+.my-group{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+
+.my-group ul{
+    list-style: none;
+    padding: 0;
+}
+
+.my-group a{
+    text-decoration: none;
+    color: white;
+    background-color: #199de5;
+    padding: 10px 20px;
+}
+
+#photos{
+    padding: 15px 20px;
+}
+
+#photos div{
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+#photos div img{
+    width: 100%;
+    height: 100px;
+}
+
+.my-group ul, .my-group p{
+    padding: 0 20px;
+}

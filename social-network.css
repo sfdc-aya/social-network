@@ -1,3 +1,104 @@
-body{
-    
+/* Alina - header start here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+header {
+    display: flex;
+    /* overflow: hidden; */
+    /* position: fixed; */
+    /* top: 0; */
+    width: 100%;    
+}
+.home, 
+.icon-bar {
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    height: 50px;
+}
+.home {
+    padding: 10px 20px;
+    background-color: rgb(23, 102, 155);
+    /* width: 10%; */
+    min-width: 150px;
+}
+.icon-bar ul{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;  
+}
+.icon-bar ul li{
+    padding: 0px 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+}
+
+.icon-bar {
+    background-color: rgb(35, 160, 218);
+    width: 100%;
+}
+.fa-home {
+    margin-right: 15px;
+    /* height: 10px; */
+}
+.active-home {
+    color: white;
+    text-decoration: none;
+    /* padding-left: 20px; */
+}
+li i {
+    color: white;
+}
+.home:hover {
+    background-color: lightgrey;
+}
+.home:hover a {
+    color: black;
+}
+.icon-bar li:hover  {
+    background-color: white;
+}
+.icon-bar li:hover .fa  {
+    color: black;
+}
+/* .container {
+    min-height: calc (100vh - 50px - 70px);
+} */
+
+/* Alina - header ends here */
+
+/* Alina - footer starts here */
+footer {
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.upper-footer {
+    background-color:  rgb(35, 160, 218);
+    font-size: 20px;
+    padding: 30px 10px;
+    height: 80px;
+    width: 100%;
+}
+.lower-footer {
+    background-color:  rgb(23, 102, 155);
+    padding: 15px 10px;
+    height: 50px;
+    width: 100%;
+}
+.lower-footer a {
+    color: white;
+}
+/* ALina - footer ends here */

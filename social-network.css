@@ -1,4 +1,5 @@
 body{
+
     
 }
 
@@ -99,3 +100,93 @@ body{
 .my-group ul, .my-group p{
     padding: 0 20px;
 }
+
+
+
+/* Viktoriia's middle section beginning */
+.post {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 8px;
+    width: 55%;
+    margin: 10px;
+}
+.search {
+    border: 1px solid lightgray;
+    margin: 5px;
+    padding: 10px; 
+    width: 90%;  
+    font-size: 12px;
+}
+.fas {
+    margin-right: 8px;
+}
+.postbutton{
+    margin: 5px 5px 0 5px;
+}
+.like,
+.comment {
+    margin-top: 8px;
+}
+.postbutton,
+.like,
+.comment {
+    color: white;
+    background-color: rgb(25,157,229);
+    border: none;
+    padding: 10px 15px;
+}
+.postbutton:hover,
+.like:hover,
+.comment:hover {
+    background-color: darkgrey;
+    color: black;
+}
+.first post {
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    width: 97%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.name {
+    margin-top: 10px;
+}
+.avatar {
+    width: 15%;
+    height: 15%; 
+    border-radius: 50px; 
+    float: left;
+}
+.name h4 {
+    float: left;
+    margin-left: 15px;
+}
+.name .time {
+    float: right;
+    font-size: 12px;
+    color: grey;
+}
+hr {
+    border: none; 
+    height: 1px; 
+    background: lightgray; 
+}
+.clr {
+    clear: both;
+}
+p {
+    font-size: 12px;
+}
+.picture1, .picture2 {
+    width: 45%;
+}
+.picture1 {
+    margin-right: 5px;
+}
+.picture2 {
+    margin-left: 5px;
+}
+/* Viktoriia's middle section end */
+

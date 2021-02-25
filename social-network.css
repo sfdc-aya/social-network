@@ -41,7 +41,6 @@ header {
     height: 100%;
     margin: 0;
 }
-
 .icon-bar {
     background-color: rgb(35, 160, 218);
     width: 100%;
@@ -76,7 +75,194 @@ li i {
 
 /* Alina - header ends here */
 
-/* Alina - footer starts here */
+/* TUBA'S PART */
+
+body{
+    font-family:  'Open ', sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+    box-sizing: border-box;
+}
+
+/* My Profile Part*/
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.left .profile{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+.profile h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.profile #pro-img, .profile ul{
+    align-self: center;
+}
+
+.profile ul{
+    /*border-top: solid 1px #eee;*/
+    padding: 0;
+}
+.profile hr{
+    width: 80%;
+    height: 1px;
+    background-color: #eee;
+    border: none;
+
+}
+.profile ul li{
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+.profile .fas{
+    color: gray;
+    padding-right: 20px;
+}
+
+/* My Group Part*/
+
+.clr{
+    clear: both;
+}
+
+.my-group{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+
+.my-group ul{
+    list-style: none;
+    padding: 0;
+}
+
+.my-group a{
+    text-decoration: none;
+    color: white;
+    background-color: #199de5;
+    padding: 10px 20px;
+}
+
+#photos{
+    padding: 15px 20px;
+}
+
+#photos div{
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+#photos div img{
+    width: 100%;
+    height: 100px;
+}
+
+.my-group ul, .my-group p{
+    padding: 0 20px;
+}
+
+
+
+/* Viktoriia's middle section beginning */
+.post {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 8px;
+    width: 55%;
+    margin: 10px;
+}
+.search {
+    border: 1px solid lightgray;
+    margin: 5px;
+    padding: 10px; 
+    width: 90%;  
+    font-size: 12px;
+}
+.fas {
+    margin-right: 8px;
+}
+.postbutton{
+    margin: 5px 5px 0 5px;
+}
+.like,
+.comment {
+    margin-top: 8px;
+}
+.postbutton,
+.like,
+.comment {
+    color: white;
+    background-color: rgb(25,157,229);
+    border: none;
+    padding: 10px 15px;
+}
+.postbutton:hover,
+.like:hover,
+.comment:hover {
+    background-color: darkgrey;
+    color: black;
+}
+.first post {
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin-top: 20px;
+    width: 97%;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+.name {
+    margin-top: 10px;
+}
+.avatar {
+    width: 15%;
+    height: 15%; 
+    border-radius: 50px; 
+    float: left;
+}
+.name h4 {
+    float: left;
+    margin-left: 15px;
+}
+.name .time {
+    float: right;
+    font-size: 12px;
+    color: grey;
+}
+hr {
+    border: none; 
+    height: 1px; 
+    background: lightgray; 
+}
+.clr {
+    clear: both;
+}
+p {
+    font-size: 12px;
+}
+.picture1, .picture2 {
+    width: 45%;
+}
+.picture1 {
+    margin-right: 5px;
+}
+.picture2 {
+    margin-left: 5px;
+}
+/* Viktoriia's middle section end */
+
+/* ALINA - footer starts here */
 footer {
     color: white;
     position: fixed;
@@ -102,3 +288,4 @@ footer {
     color: white;
 }
 /* ALina - footer ends here */
+

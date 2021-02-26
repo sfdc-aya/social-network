@@ -181,6 +181,70 @@ p {
     background-color: rgba(190, 76, 76, 0.7);
 }
 
+
+/*Aya's part-two begins here*/
+.box-one{
+    border: solid 5px red;
+    width:180px;
+    padding: 10px;
+    margin-left:10px;
+    border: solid 1px #D3D3D3;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+.interests{
+    padding-top: 20px;
+    background-color: white;
+}
+span{
+    padding-left:10px;
+    padding-right: 10px;
+    margin-top:5px;
+    display: inline;
+    font-size: small;
+}
+.dark-blue{
+    background-color:rgb(35, 97, 147);
+    color: white;
+    border: solid 1px rgb(26, 77, 120);
+}
+.light-blue{
+    background-color: rgb(30, 149, 252);
+    border: solid 1px rgb(30, 149, 252);
+    color: white;
+}
+.dark-grey{
+    background-color: darkgray;
+    border: solid 1px darkgray;
+}
+.light-grey{
+    background-color:lightgray;
+    border: solid 1px lightgray;
+}
+.greyish{
+    background-color: silver;
+}
+.grey{
+    background-color: rgb(230, 230, 230);
+}
+.box-two{
+    border: solid 5px red;
+    width: 200px;
+    background-color: gainsboro;
+    margin-top:15px;
+    margin-left: 10px;
+    border: solid 1px gainsboro;
+    font-family: sans-serif;
+    border-radius: 4px;
+    margin-bottom:10px;
+}
+.hey{
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/*Aya's part-two ends here*/
+=======
 .btn-1 .fa,
 .btn-2 .fa {
     color: white;
@@ -295,6 +359,7 @@ p {
 .my-group ul, .my-group p{
     padding: 0 20px;
 }
+
 
 
 

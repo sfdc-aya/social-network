@@ -190,3 +190,16 @@ p {
 }
 /* Viktoriia's middle section end */
 
+/* Aigerim's part */
+.picture {
+    width: 90%;
+}
+hr {
+    
+    margin: 20px 0;
+}
+.post {
+    box-shadow: 5px 3px 20px 3px gray;
+}
+/* Aigerim's part end */
+

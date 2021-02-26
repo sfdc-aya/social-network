@@ -267,6 +267,34 @@ span{
 
 
 
+.btn-1 .fa,
+.btn-2 .fa {
+    color: white;
+
+}
+
+.btn-1:hover .fa,
+.btn-2:hover .fa {
+    color: black;
+}
+
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+body{
+    font-family:  'Open ', sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
+    box-sizing: border-box;
+}
 
 
 /* My Profile Part*/
@@ -448,6 +476,20 @@ p {
 }
 /* Viktoriia's middle section end */
 
+
+/* Aigerim's part */
+.picture {
+    width: 90%;
+}
+hr {
+    
+    margin: 20px 0;
+}
+.post {
+    box-shadow: 5px 3px 20px 3px gray;
+}
+/* Aigerim's part end */
+
 /* ALINA - footer starts here */
 footer {
     color: white;
@@ -474,4 +516,5 @@ footer {
     color: white;
 }
 /* ALina - footer ends here */
+
 

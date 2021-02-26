@@ -1,15 +1,19 @@
 /* Alina - header start here */
-* {
-    margin: 0;
-    padding: 0;
+body{
+    font-family:  'Open ', sans-serif;
+    line-height: 1.5;
+    font-weight: 200;
     box-sizing: border-box;
-    font-family: sans-serif;
+}
+
+.container{
+    margin-top: 70px;
 }
 header {
     display: flex;
     /* overflow: hidden; */
-    /* position: fixed; */
-    /* top: 0; */
+     position: fixed;
+     top: 0; 
     width: 100%;    
 }
 .home, 
@@ -20,7 +24,7 @@ header {
     height: 50px;
 }
 .home {
-    padding: 10px 20px;
+    padding: 0 20px;
     background-color: rgb(23, 102, 155);
     /* width: 10%; */
     min-width: 150px;
@@ -52,7 +56,7 @@ header {
 .active-home {
     color: white;
     text-decoration: none;
-    /* padding-left: 20px; */
+    padding: 10px 0 0 15px;
 }
 li i {
     color: white;
@@ -180,6 +184,22 @@ p {
     padding-bottom: 16px;
     background-color: rgba(190, 76, 76, 0.7);
 }
+.btn-1 .fa, .btn-2 .fa {
+    color: white;
+}
+
+.btn-1:hover .fa,
+.btn-2:hover .fa {
+    color: black;
+}
+
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: lightgrey;
+}
+
+
 
 
 /*Aya's part-two begins here*/
@@ -245,6 +265,8 @@ span{
 
 /*Aya's part-two ends here*/
 
+
+
 .btn-1 .fa,
 .btn-2 .fa {
     color: white;
@@ -265,12 +287,15 @@ span{
 
 
 
+
+
 body{
     font-family:  'Open ', sans-serif;
     line-height: 1.5;
     font-weight: 200;
     box-sizing: border-box;
 }
+
 
 /* My Profile Part*/
 .profile img{
@@ -382,14 +407,14 @@ body{
 .fas {
     margin-right: 8px;
 }
-.postbutton{
+.post button{
     margin: 5px 5px 0 5px;
 }
 .like,
 .comment {
     margin-top: 8px;
 }
-.postbutton,
+.post button,
 .like,
 .comment {
     color: white;
@@ -397,13 +422,13 @@ body{
     border: none;
     padding: 10px 15px;
 }
-.postbutton:hover,
+.post button:hover,
 .like:hover,
 .comment:hover {
     background-color: darkgrey;
     color: black;
 }
-.first post {
+.first .post {
     border: 2px solid lightgray;
     padding: 10px;
     margin-top: 20px;

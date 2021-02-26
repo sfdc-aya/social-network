@@ -77,7 +77,130 @@ li i {
 
 /* TUBA'S PART */
 
-body{
+    
+
+/*Zarian's part*/
+/*body {
+    margin: 10px;
+    padding: 0;
+    line-height: 1.5;
+    width: 20%;
+    flex-wrap: wrap;
+    text-align: center;
+}*/
+
+.right-column {
+    width: 20%;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+p {
+    font-size: 18px;
+}
+
+
+.btn {
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    padding: 8px 16px;
+
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    border: solid 1px blue;
+    border-radius: 5px;
+}
+
+.box {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px
+        /*X-axis*/
+        3px
+        /*Y-axis*/
+        20px
+        /*Blurness*/
+        3px
+        /*spread radius*/
+        gray;
+
+}
+
+.row-one img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.row-two img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.row-three,
+.row-four {
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+
+/*.fa {
+    display: inline-block;
+}*/
+
+
+.buttons {
+    display: flex;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+.btn-1 {
+    border: none;
+    width: 100%;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(98, 165, 98, 0.7)
+}
+
+.btn-2 {
+    border: none;
+    width: 100%;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(190, 76, 76, 0.7);
+}
+
+.btn-1 .fa,
+.btn-2 .fa {
+    color: white;
+
+}
+
+.btn-1:hover .fa,
+.btn-2:hover .fa {
+    color: black;
+}
+
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: lightgrey;
+}
+
+
+
+
     font-family:  'Open ', sans-serif;
     line-height: 1.5;
     font-weight: 200;

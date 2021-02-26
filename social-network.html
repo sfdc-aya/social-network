@@ -9,10 +9,15 @@
 </head>
 <body>
     <!---The Header goes here Alina-->
-    <header class="top">
-        <nav>
-            
-        </nav>
+    <header>
+            <div class="home">
+                <a class="active-home" href="#"><i class="fas fa-home fa-sm"></i>Seytech</a>
+            </div>
+            <div class="icon-bar">
+                <ul>
+                    <li><i class="fa fa-globe-americas fa-sm"></i></li><li><i class="fa fa-user-alt fa-sm"></i></li><li><i class="fa fa-envelope fa-sm"></i></li>
+                </ul>  
+            </div>
     </header>
     <!--end of header Alina-->
     
@@ -22,15 +27,67 @@
         <!--The Left Column goes here-->
         <div class="left column">
             <!--Tuba these two-->
-                <div class="profile"></div>
-                <div class="left two"></div>
+                <div class="profile">
+                    <h2>My Profile</h2>
+                    <div id="pro-img">
+                        <img src="https://images.pexels.com/photos/3785424/pexels-photo-3785424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Profile Photo">
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><i class="fas fa-pencil-alt"></i> Software Engineer</li>
+                        <li><i class="fas fa-home"></i> Seattle, WA</li>
+                        <li><i class="fas fa-birthday-cake"></i> June 14</li>
+                    </ul>
+                </div>
+                <div class="my-group"> <!-- I changed class name! -->
+                    <a href="#"><i class="fas fa-circle-notch"></i> My Groups</a>
+                    <ul>
+                        <li>Asiye Bulut</li>
+                        <li>Ayazhan Mukhammedova</li>
+                        <li>Viktoriia Leseiko </li>
+                        <li>Aigerim Ermatova</li>
+                        <li>Zarina Bakchieva</li>
+                        <li>Alina Sadykova</li>
+                    </ul>
+                    <a href="#"><i class="far fa-calendar-check"></i> My Event</a>
+                    <p>No close event...</p>
+                    <a href="#"><i class="fas fa-users"></i> My Photos</a>
+                    <div id="photos">
+                            <div><img src="https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div><img src="https://images.pexels.com/photos/2469122/pexels-photo-2469122.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div><img src="https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div><img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div><img src="https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                            <div><img src="https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""></div>
+                    </div>
+                    <div class="clr"></div> 
+                </div>
             <!--end of Tuba-->
           
-            <!--Aya these two-->
-            <div class="interests"></div>
-            <div class="hey"></div>
-            <!--end of these-->
-        </div>
+           <!--Aya these two-->
+           <div class="box-one">
+                Interests
+                <div class="interests">
+                    <span class="dark-blue">News</span>
+                    <span class="dark-blue">Seytech</span>
+                    <span class="light-blue">Algos</span>
+                    <span class="light-blue">Games</span>
+                    <span class="light-blue">Friends</span>
+                    <span class="light-blue">Games</span>
+                    <span class="light-blue">Friends</span>
+                    <span class="dark-grey">Food</span>
+                    <span class="greyish">Design</span>
+                    <span class="light-grey">Art</span>
+                    <span  class="grey">Photos</span>
+                </div>
+          </div>
+          <div class="box-two">
+                <div class="hey">
+                Hey!
+                <p>People are looking at your profile. Find out who.</p>
+                </div>
+            </div>
+        <!--end of these-->
         <!--end of left column-->
        
 
@@ -38,6 +95,10 @@
         <!--Victoria these two-->
         <div class="crl"></div>
         <div class="center column">
+          
+            <!--Victoria these two-->
+            
+
             <div class="post">
                 <input class="search" type="text" value="Status: Feeling Awesome">
                 <button class="postbutton"><i class="fas fa-pencil-alt"></i>Post</button>
@@ -56,10 +117,42 @@
                     <button class="comment"><i class="fas fa-comment"></i>Comment</button>
                 </div>
             </div>
+          <!--end of Victoria-->
+            <!--Aigerim these two-->
+            <div class="second post">
+                <div class="name">
+                    <img class="avatar" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/aikol.jpeg" alt="">
+                    <h4>Aikol T</h4>
+                    <span class="time">16 min</span>
+                    <div class="clr"></div>
+                    <hr>
+                    <p>Join us at the new and improved Microsoft! We are building the Developer Relations dream team in Azure engineering. Our global team is...</p>
+                    <button class="like"><i class="fas fa-thumbs-up"></i>Like</button>
+                    <button class="comment"><i class="fas fa-comment"></i>Comment</button>
+                </div>
+            </div>
+            <div class="third post">
+                <div class="name">
+                    <img class="avatar" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/ulan.jpeg" alt="">
+                    <h4>L'uan R</h4>
+                    <span class="time">32 min</span>
+                    <div class="clr"></div>
+                    <hr>
+                    <p>Have you seen this?</p>
+                    <img class="picture" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png" alt="">
+                    <p>Coding bootcamp reviews, rankings, and resources to help students find what they need. 
+                        <br>
+                    <u><a href="https://learn.seytech.co/">Bootcamp Venue</a></u></p>
+                    <button class="like"><i class="fas fa-thumbs-up"></i>Like</button>
+                    <button class="comment"><i class="fas fa-comment"></i>Comment</button>
+                </div>
+            </div>
         </div>
         <!--end of Victoria-->
 
+
             <!--Aigerim these two-->
+            Aigerim was here too 
             <div class="second post"></div>
             <div class="third post"></div>
             <!--end of Aigerim-->
@@ -70,13 +163,46 @@
         <!--The Right Column goes here-->
         
         <!---Zarina these four-->
-        <div class="right column">
-            <div class="row one"></div>
-            <div class="row two"></div>
-            <div class="row three"></div>
-            <div class="row four"></div>
-        <!--Zarina these four-->
+        <div class="right-column">
+            <div class="box">
+                <div class="row-one">
+                    <p>Upcoming Events:</p>
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/event.png"
+                        alt="Seytech">
+                    <p>React Course</p>
+                    <p>Friday 15:00</p>
+                    <p><button class="btn">Info</button></p>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <div class="row-two">
+                    <p>Friend Request</p>
+                    <img src="http://learn.seytech.co/assets/images/avatars/default.jpg" alt="Avatar" />
+                    <br>
+                    <span>Shiba Inu</span>
+                    <div class="buttons">
+                        <button class="btn-1" title="accept"><i class="fa fa-check"></i></button>
+                        <button class="btn-2" title="decline"><i class="fa fa-remove"></i></button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <div class="row-three">
+                    <p>ADS</p>
+                </div>
+            </div>
+            <br>
+            <div class="box">
+                <div class="row-four">
+                   <i class="fa fa-bug fa-3x fa-fw"></i>
+                </div>
+            </div>
         </div>
+        
+        
+        
         <!--end of right column-->
     
 
@@ -84,7 +210,14 @@
     <!--end of container here-->
 
         <!---The footer goes here-Alina-->
-        <footer class="top"></footer>
+        <footer>
+            <div class="upper-footer">
+                Footer
+            </div>
+            <div class="lower-footer">
+                Powered by <a href="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/index.html#">our Team 2</a>
+            </div>
+        </footer>
         <!--end of footer-->
 
 </body>

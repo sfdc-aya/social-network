@@ -244,7 +244,7 @@ span{
 }
 
 /*Aya's part-two ends here*/
-=======
+
 .btn-1 .fa,
 .btn-2 .fa {
     color: white;
@@ -265,6 +265,7 @@ span{
 
 
 
+body{
     font-family:  'Open ', sans-serif;
     line-height: 1.5;
     font-weight: 200;
@@ -450,6 +451,20 @@ p {
 }
 /* Viktoriia's middle section end */
 
+
+/* Aigerim's part */
+.picture {
+    width: 90%;
+}
+hr {
+    
+    margin: 20px 0;
+}
+.post {
+    box-shadow: 5px 3px 20px 3px gray;
+}
+/* Aigerim's part end */
+
 /* ALINA - footer starts here */
 footer {
     color: white;
@@ -476,4 +491,5 @@ footer {
     color: white;
 }
 /* ALina - footer ends here */
+
 

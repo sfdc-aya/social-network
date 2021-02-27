@@ -1,21 +1,28 @@
 /* Alina - header start here */
 body{
     font-family:  'Open ', sans-serif;
+    font-size: 15px;
     line-height: 1.5;
-    font-weight: 200;
+    font-weight: 300;
     box-sizing: border-box;
 }
 
 .container{
+    max-width: 1400px;
+    margin: auto;
     margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1.75fr 4fr 1.25fr;
+    grid-gap: 15px;
 }
+
 header {
     display: flex;
-    /* overflow: hidden; */
-     position: fixed;
-     top: 0; 
+    position: fixed;
+    top: 0; 
     width: 100%;    
 }
+
 .home, 
 .icon-bar {
     font-size: 20px;
@@ -23,18 +30,20 @@ header {
     justify-content: start;
     height: 50px;
 }
+
 .home {
     padding: 0 20px;
     background-color: rgb(23, 102, 155);
-    /* width: 10%; */
     min-width: 150px;
 }
+
 .icon-bar ul{
     padding: 0;
     margin: 0;
     height: 100%;
     display: flex;  
 }
+
 .icon-bar ul li{
     padding: 0px 25px;
     list-style: none;
@@ -45,14 +54,16 @@ header {
     height: 100%;
     margin: 0;
 }
+
 .icon-bar {
     background-color: rgb(35, 160, 218);
     width: 100%;
 }
+
 .fa-home {
     margin-right: 15px;
-    /* height: 10px; */
 }
+
 .active-home {
     color: white;
     text-decoration: none;
@@ -66,238 +77,26 @@ li i {
 }
 .home:hover a {
     color: black;
+    cursor: pointer;
 }
 .icon-bar li:hover  {
     background-color: white;
+    cursor: pointer;
 }
 .icon-bar li:hover .fa  {
     color: black;
 }
-/* .container {
-    min-height: calc (100vh - 50px - 70px);
-} */
-
 /* Alina - header ends here */
 
 /* TUBA'S PART */
 
-    
-
-/*Zarian's part*/
-/*body {
-    margin: 10px;
-    padding: 0;
-    line-height: 1.5;
-    width: 20%;
-    flex-wrap: wrap;
-    text-align: center;
-}*/
-
-.right-column {
-    width: 20%;
-    line-height: 1.5;
-    flex-wrap: wrap;
-    text-align: center;
-}
-
-
-p {
-    font-size: 18px;
-}
-
-
-.btn {
-    background-color: #eee;
-    border: none;
-    width: 100%;
-    padding: 8px 16px;
-
-}
-
-.btn:hover {
-    background-color: lightgrey;
-    border: solid 1px blue;
-    border-radius: 5px;
-}
-
-.box {
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 5px
-        /*X-axis*/
-        3px
-        /*Y-axis*/
-        20px
-        /*Blurness*/
-        3px
-        /*spread radius*/
-        gray;
-
-}
-
-.row-one img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-.row-two img {
-    width: 50%;
-    vertical-align: middle;
-}
-
-.row-three,
-.row-four {
-    width: 100%;
-    vertical-align: middle;
-
-}
-
-
-/*.fa {
-    display: inline-block;
-}*/
-
-
-.buttons {
-    display: flex;
-    overflow: hidden;
-    vertical-align: middle;
-
-}
-
-.btn-1 {
-    border: none;
-    width: 100%;
-    display: block;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: rgba(98, 165, 98, 0.7)
-}
-
-.btn-2 {
-    border: none;
-    width: 100%;
-    display: block;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: rgba(190, 76, 76, 0.7);
-}
-.btn-1 .fa, .btn-2 .fa {
-    color: white;
-}
-
-.btn-1:hover .fa,
-.btn-2:hover .fa {
-    color: black;
-}
-
-
-.btn-1:hover,
-.btn-2:hover {
-    background-color: lightgrey;
-}
-
-
-
-
-/*Aya's part-two begins here*/
-.box-one{
-    border: solid 5px red;
-    width:180px;
-    padding: 10px;
-    margin-left:10px;
-    border: solid 1px #D3D3D3;
-    font-family: sans-serif;
-    border-radius: 4px;
-}
-.interests{
-    padding-top: 20px;
-    background-color: white;
-}
-span{
-    padding-left:10px;
-    padding-right: 10px;
-    margin-top:5px;
-    display: inline;
-    font-size: small;
-}
-.dark-blue{
-    background-color:rgb(35, 97, 147);
-    color: white;
-    border: solid 1px rgb(26, 77, 120);
-}
-.light-blue{
-    background-color: rgb(30, 149, 252);
-    border: solid 1px rgb(30, 149, 252);
-    color: white;
-}
-.dark-grey{
-    background-color: darkgray;
-    border: solid 1px darkgray;
-}
-.light-grey{
-    background-color:lightgray;
-    border: solid 1px lightgray;
-}
-.greyish{
-    background-color: silver;
-}
-.grey{
-    background-color: rgb(230, 230, 230);
-}
-.box-two{
-    border: solid 5px red;
-    width: 200px;
-    background-color: gainsboro;
-    margin-top:15px;
-    margin-left: 10px;
-    border: solid 1px gainsboro;
-    font-family: sans-serif;
-    border-radius: 4px;
-    margin-bottom:10px;
-}
-.hey{
-    padding: 10px;
-    font-family: sans-serif;
-}
-
-/*Aya's part-two ends here*/
-
-
-
-.btn-1 .fa,
-.btn-2 .fa {
-    color: white;
-
-}
-
-.btn-1:hover .fa,
-.btn-2:hover .fa {
-    color: black;
-}
-
-
-.btn-1:hover,
-.btn-2:hover {
-    background-color: lightgrey;
-}
-
-
-
-
-
-
-body{
-    font-family:  'Open ', sans-serif;
-    line-height: 1.5;
-    font-weight: 200;
-    box-sizing: border-box;
-}
-
-
 /* My Profile Part*/
+
+.profile, .my-group, .box-one, .box-two,
+.post, .box {
+    margin-top: 15px;
+} 
+
 .profile img{
     width: 100px;
     height: 100px;
@@ -305,35 +104,28 @@ body{
 }
 .left .profile{
     display: flex;
-    width: 25%;
     flex-direction: column;
     justify-content: center;
     border-radius: 5px;
+    padding: 0 15px;
     box-shadow: 0 0 10px 3px lightgray;
 }
 .profile h2{
-    text-align: center;
     font-weight: lighter;
 }
 
-.profile #pro-img, .profile ul{
+.profile #pro-img, .profile h2{
     align-self: center;
 }
 
 .profile ul{
-    /*border-top: solid 1px #eee;*/
+    align-self: flex-start;
     padding: 0;
 }
-.profile hr{
-    width: 80%;
-    height: 1px;
-    background-color: #eee;
-    border: none;
 
-}
 .profile ul li{
     list-style: none;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
 .profile .fas{
@@ -351,7 +143,6 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    width: 25%;
     box-shadow: 0 0 10px 3px lightgray;
 }
 
@@ -386,23 +177,87 @@ body{
     padding: 0 20px;
 }
 
+/* Tuba's part done!*/
 
+/*Aya's part-two begins here*/
 
+.box-one{
+    padding: 10px;
+    border: solid 1px #D3D3D3;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+.interests{
+    padding-top: 20px;
+    background-color: white;
+}
+.interests span{
+    padding-left:10px;
+    padding-right: 10px;
+    margin-top:5px;
+    font-size: small;
+}
+.dark-blue{
+    background-color:rgb(35, 97, 147);
+    color: white;
+    border: solid 1px rgb(26, 77, 120);
+}
+.light-blue{
+    background-color: rgb(30, 149, 252);
+    border: solid 1px rgb(30, 149, 252);
+    color: white;
+}
+.dark-grey{
+    background-color: darkgray;
+    border: solid 1px darkgray;
+}
+.light-grey{
+    background-color:lightgray;
+    border: solid 1px lightgray;
+}
+.greyish{
+    background-color: silver;
+}
+.grey{
+    background-color: rgb(230, 230, 230);
+}
+.box-two{
+    position: relative;
+    background-color: gainsboro;
+    border: solid 1px gray;
+    border-radius: 4px;
+    margin-bottom:10px;
+}
+.hey{
+    padding: 10px 10px 0 10px;
+}
+
+.hey .icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: silver;
+    padding: 5px 5px 5px 15px;
+}
+
+.hey .icon:hover{
+    cursor: pointer;
+    background-color: #eee;
+}
+/*Aya's part-two ends here*/
 
 /* Viktoriia's middle section beginning */
 .post {
     border: 1px solid lightgrey;
     border-radius: 3px;
     padding: 8px;
-    width: 55%;
-    margin: 10px;
 }
+
 .search {
     border: 1px solid lightgray;
     margin: 5px;
     padding: 10px; 
     width: 90%;  
-    font-size: 12px;
 }
 .fas {
     margin-right: 8px;
@@ -428,14 +283,7 @@ body{
     background-color: darkgrey;
     color: black;
 }
-.first .post {
-    border: 2px solid lightgray;
-    padding: 10px;
-    margin-top: 20px;
-    width: 97%;
-    border: 1px solid lightgrey;
-    border-radius: 4px;
-}
+
 .name {
     margin-top: 10px;
 }
@@ -451,7 +299,6 @@ body{
 }
 .name .time {
     float: right;
-    font-size: 12px;
     color: grey;
 }
 hr {
@@ -462,9 +309,7 @@ hr {
 .clr {
     clear: both;
 }
-p {
-    font-size: 12px;
-}
+
 .picture1, .picture2 {
     width: 45%;
 }
@@ -476,45 +321,193 @@ p {
 }
 /* Viktoriia's middle section end */
 
-
 /* Aigerim's part */
 .picture {
     width: 90%;
 }
 hr {
-    
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .post {
-    box-shadow: 5px 3px 20px 3px gray;
+    box-shadow: 0 0 10px 3px lightgray;
+}
+.third{
+    margin-bottom: 20px; 
 }
 /* Aigerim's part end */
+
+/*Zarian's part*/
+
+.btn {
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    padding: 8px 16px;
+
+}
+
+.btn:hover {
+    background-color: lightgrey;
+    border: solid 1px blue;
+    border-radius: 5px;
+}
+
+.box {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row-one img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.row-two img {
+    width: 50%;
+    vertical-align: middle;
+}
+
+.buttons {
+    display: flex;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.btn-1 {
+    border: none;
+    width: 100%;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(98, 165, 98, 0.7)
+}
+
+.btn-2 {
+    border: none;
+    width: 100%;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: rgba(190, 76, 76, 0.7);
+}
+.btn-1 .fa, .btn-2 .fas {
+    color: white;
+}
+
+.btn-1:hover .fa,
+.btn-2:hover .fa {
+    color: black;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: lightgrey;
+}
+
+.btn-1 .fa,
+.btn-2 .fa {
+    color: white;
+}
+
+.btn-1:hover .fa,
+.btn-2:hover .fa {
+    color: black;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: lightgrey;
+}
 
 /* ALINA - footer starts here */
 footer {
     color: white;
-    /* position: fixed; */
-    left: 0;
-    right: 0;
-    bottom: 0;
     width: 100%;
 }
 .upper-footer {
     background-color:  rgb(35, 160, 218);
     font-size: 20px;
     padding: 30px 10px;
-    height: 80px;
+    
     width: 100%;
 }
 .lower-footer {
     background-color:  rgb(23, 102, 155);
     padding: 15px 10px;
-    height: 50px;
     width: 100%;
 }
 .lower-footer a {
     color: white;
 }
 /* ALina - footer ends here */
+
+
+@media (max-width:600px){
+    header .icon-bar ul{
+        display: none;
+    }
+
+    .container{
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    .left, .center, .right{
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    .my-group, .box-one, .box-two,
+    .post, .box{
+        margin-top: 20px;
+    }
+
+    .center{
+       width: 90%;
+       margin: auto;
+    }
+    #photos div{
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    #photos div img{
+        width: 100%;
+        height: 250px;
+        padding: 5px 0;
+    }
+
+    .left .box-one, .left .box-two{
+        display: none;
+    }
+
+    .row-two .buttons{
+        display: block;
+    }
+
+    .row-two .buttons .btn-2{
+        margin-top: 30px;
+    }
+
+    .box .row-four{
+       padding: 30px 0;
+    }
+
+    .picture1, .picture2{
+        width: 95%;
+        margin-left: 10px;
+    }
+} 
+
 
 

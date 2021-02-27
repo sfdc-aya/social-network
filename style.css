@@ -1,6 +1,7 @@
-/* Alina - header start here */
 body{
-    font-family:  'Open ', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open ', sans-serif;
     font-size: 15px;
     line-height: 1.5;
     font-weight: 300;
@@ -15,7 +16,7 @@ body{
     grid-template-columns: 1.75fr 4fr 1.25fr;
     grid-gap: 15px;
 }
-
+/* header start here */
 header {
     display: flex;
     position: fixed;
@@ -86,12 +87,9 @@ li i {
 .icon-bar li:hover .fa  {
     color: black;
 }
-/* Alina - header ends here */
+/* header ends here */
 
-/* TUBA'S PART */
-
-/* My Profile Part*/
-
+/* left-column starts here*/
 .profile, .my-group, .box-one, .box-two,
 .post, .box {
     margin-top: 15px;
@@ -132,8 +130,6 @@ li i {
     color: gray;
     padding-right: 20px;
 }
-
-/* My Group Part*/
 
 .clr{
     clear: both;
@@ -176,10 +172,6 @@ li i {
 .my-group ul, .my-group p{
     padding: 0 20px;
 }
-
-/* Tuba's part done!*/
-
-/*Aya's part-two begins here*/
 
 .box-one{
     padding: 10px;
@@ -244,9 +236,9 @@ li i {
     cursor: pointer;
     background-color: #eee;
 }
-/*Aya's part-two ends here*/
+/* Left-column ends here*/
 
-/* Viktoriia's middle section beginning */
+/* center-column starts here */
 .post {
     border: 1px solid lightgrey;
     border-radius: 3px;
@@ -319,9 +311,7 @@ hr {
 .picture2 {
     margin-left: 5px;
 }
-/* Viktoriia's middle section end */
 
-/* Aigerim's part */
 .picture {
     width: 90%;
 }
@@ -334,9 +324,9 @@ hr {
 .third{
     margin-bottom: 20px; 
 }
-/* Aigerim's part end */
+/* center-column ends here* */
 
-/*Zarian's part*/
+/*right-column starts here */
 
 .btn {
     background-color: #eee;
@@ -426,7 +416,9 @@ hr {
     background-color: lightgrey;
 }
 
-/* ALINA - footer starts here */
+/* right-column ends here */
+
+/* footer starts here */
 footer {
     color: white;
     width: 100%;
@@ -446,7 +438,7 @@ footer {
 .lower-footer a {
     color: white;
 }
-/* ALina - footer ends here */
+/* footer ends here */
 
 
 @media (max-width:600px){
